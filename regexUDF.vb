@@ -17,7 +17,7 @@ Function RegX(strInput As String, regexPattern As String) As String
     With regEx
     'setting this function to module
         .Global = True
-        .MultiLine = True
+        '.MultiLine = True
     'making pattern case sensitive
         .IgnoreCase = False
     'returning pattern that matches regexPattern
