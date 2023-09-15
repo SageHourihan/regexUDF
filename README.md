@@ -26,14 +26,15 @@ The `RegX` function is now available for use within the workbook where it was de
 
 To make the `RegX` function available globally in all your Excel workbooks, follow these steps:
 
-1. Press `ALT + F11` to open the VBA editor in Excel.
-2. Go to `File` -> `Export File` and choose a location to save your VBA project as a `.xlsm` or `.xls` file.
-3. Close the Excel workbook.
-4. Open Excel and go to `File` -> `Options`.
-5. In the Excel Options window, select `Add-Ins` on the left sidebar.
-6. In the "Add-Ins" section, choose "Excel Add-ins" from the drop-down menu and click the "Go..." button.
-7. Click the "Browse..." button in the "Add-Ins" window and locate the VBA project file you exported earlier.
-8. Select the VBA project file and click "OK."
+1. Press `ALT + F11` to open the VBA editor in Excel and paste in the code.
+2. Select `Tools` -> `References`. Check Microsoft `VBScript Regular Expressions 1.0` and `Microsoft VBScript Regular Expressions 5.5`
+3. Save as `Excel Add In` to: C:\Users\userName\AppData\Roaming\Microsoft\AddIns
+4. Close the Excel workbook.
+5. Open Excel and go to `File` -> `Options`.
+6. In the Excel Options window, select `Add-Ins` on the left sidebar.
+7. In the "Add-Ins" section, choose "Excel Add-ins" from the drop-down menu and click the "Go..." button.
+8. Click the "Browse..." button in the "Add-Ins" window and locate the VBA project file you exported earlier.
+9. Select the VBA project file and click "OK."
 
 The `RegX` function is now available globally in all your Excel workbooks.
 
